@@ -56,7 +56,7 @@ export default function TodoForm() {
         //Tắt modal
         handleCloseConfirmDelete();
         //Render lại giao diện
-        getTodoList();
+        handleGetListData();
         //Thông báo thành công
         message.success("Xóa thành công");
       }
